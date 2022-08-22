@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title></title><meta name="description" content="">
+    <link rel="modulepreload" href="/doc-next/assets/app.09ee9a0a.js"><link rel="modulepreload" href="/doc-next/assets/404.html.4fc057d4.js"><link rel="modulepreload" href="/doc-next/assets/404.html.7d858b3d.js"><link rel="prefetch" href="/doc-next/assets/index.html.a01a1497.js"><link rel="prefetch" href="/doc-next/assets/index.html.f8bc7f88.js"><link rel="prefetch" href="/doc-next/assets/test.html.587c4b60.js"><link rel="prefetch" href="/doc-next/assets/index.html.52cde685.js"><link rel="prefetch" href="/doc-next/assets/index.html.7dd43788.js"><link rel="prefetch" href="/doc-next/assets/test.html.210e149f.js"><link rel="prefetch" href="/doc-next/assets/404.a158f289.js"><link rel="prefetch" href="/doc-next/assets/Layout.3f714546.js">
+    <link rel="stylesheet" href="/doc-next/assets/style.cd50429c.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>Looks like we&#39;ve got some broken links.</blockquote><a href="/doc-next/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/doc-next/assets/app.09ee9a0a.js" defer></script>
+  </body>
+</html>
